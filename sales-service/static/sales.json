@@ -1,0 +1,8 @@
+{
+  "description": "A list of products that are on sale and their discount percentages.",
+  "products": {
+    "apple": "15",
+    "cranberry": "30",
+    "orange": "25",
+  }
+}

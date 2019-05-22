@@ -1,0 +1,16 @@
+{
+  "description": "A list of products and their prices.",
+  "products": {
+    "apple": "1.15",
+    "banana": "1.00",
+    "blueberry": "3.99",
+    "coconut": "4.99",
+    "cranberry": "2.99",
+    "cucumber": "0.50",
+    "currant": "2.00",
+    "olive": "2.50",
+    "orange": "1.75",
+    "pamelo": "3.00",
+    "papaya": "4.75"
+  }
+}
