@@ -27,7 +27,8 @@ app.get("/", (req, res, next) => {
         })
         item.price = (item.price - (item.price * (saleItem.discount / 100))).toFixed(2);
       }
-      res.json({description: "A list of total prices, including discounts.", products: totalPrices});
+      res.header("Content-Type",'application/json');
+      res.send(JSON.stringify({description: "A list of total prices, including discounts.", products: totalPrices}, null, 4));
     });
   });
 });
